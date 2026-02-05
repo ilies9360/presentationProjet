@@ -63,7 +63,7 @@ button.remove-btn{background:#c0392b}
 
 .img-gallery{display:flex;flex-wrap:wrap;gap:12px}
 .img-wrap{background:var(--card);padding:8px;border-radius:8px;position:relative;display:flex;flex-direction:column;align-items:center}
-.img-wrap img{max-width:200px;max-height:140px;border-radius:6px;display:block}
+.img-wrap img{max-width:200px;max-height:140px;border-radius:6px;display:flex}
 .img-wrap .remove-btn{margin-top:8px}
 
 .site-footer{padding:14px 20px;color:var(--muted);border-top:1px solid rgba(255,255,255,0.04);margin-top:24px}
