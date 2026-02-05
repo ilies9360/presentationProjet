@@ -1,5 +1,5 @@
 :root{
-	--bg: #001f3f; /* bleu marine */
+	--bg: #001f3f; 
 	--card: #02263e;
 	--text: #ffffff;
 	--muted: #a9c0d9;
@@ -38,7 +38,6 @@ body{
 .paper{background:var(--card);padding:18px;border-radius:10px;margin-bottom:18px}
 .paper h2{margin-top:0}
 
-/* small tweaks */
 .main-nav a{font-weight:600}
 
 button{background:var(--accent);color:#fff;border:0;padding:8px 12px;border-radius:6px;cursor:pointer}
@@ -64,7 +63,6 @@ button.remove-btn{background:#c0392b}
 
 .site-footer{padding:14px 20px;color:var(--muted);border-top:1px solid rgba(255,255,255,0.04);margin-top:24px}
 
-/* Mode clair */
 body.light{
 	--bg: #f7f9fc;
 	--card: #ffffff;
@@ -74,12 +72,10 @@ body.light{
 	background: linear-gradient(180deg,#f7f9fc 0%, #e9eef6 100%);
 }
 
-/* Responsive */
 @media (max-width:700px){
 	.pdf-viewer{height:320px}
 	.site-header .container{flex-direction:column;gap:10px;align-items:flex-start}
 }
 
-/* Small helpers */
 input[type=file]{width:100%;padding:6px}
 
